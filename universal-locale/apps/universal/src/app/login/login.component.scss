@@ -1,0 +1,57 @@
+@import '~@fulls1z3/shared/ui-material/scss/core';
+@import '~@fulls1z3/shared/ui-material/scss/util/bem';
+
+$background: map-get($theme, background);
+$grey: map-get($theme, grey);
+$typo_config: mat-typography-config();
+
+:host {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: mat-color($grey, 500);
+}
+
+.login {
+  @include push(0 auto);
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 380px;
+  height: 380px;
+  background: mat-contrast($primary, 500);
+  transform: translateX(-50%) translateY(-50%);
+
+  @include el('header') {
+    @include soft($space--xl);
+
+    background-color: mat-color($primary);
+    color: mat-contrast($primary, 500);
+    font-size: mat-font-size($typo_config, title);
+    font-family: mat-font-family($typo_config);
+  }
+
+  @include el('body') {
+    @include soft($space--xl 42px 42px);
+  }
+}
+
+.form {
+  @include el('control') {
+    @include push(6px 0);
+
+    width: 100%;
+  }
+
+  @include el('message') {
+    @include push($space--xl 0 0);
+
+    @include mod('error') {
+      @include push($space--xl 0 0);
+
+      color: mat-color($warn);
+      text-align: center;
+    }
+  }
+}

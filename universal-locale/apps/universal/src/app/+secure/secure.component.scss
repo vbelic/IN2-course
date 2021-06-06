@@ -1,0 +1,8 @@
+@import '~@fulls1z3/shared/ui-material/scss/util/bem';
+
+.card_header {
+  @include el('image') {
+    background-image: url('https://avatars3.githubusercontent.com/u/19705696');
+    background-size: cover;
+  }
+}

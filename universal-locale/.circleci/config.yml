@@ -1,0 +1,34 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10-browsers
+        environment:
+          JOBS: 1
+    steps:
+      - checkout
+      - run: sudo yarn global add @angular/cli@8
+      - run: sudo yarn global add greenkeeper-lockfile@1
+      - restore_cache:
+          keys:
+          - deps-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          - deps-
+      - run: yarn
+      - save_cache:
+          key: deps-{{ .Branch }}-{{ checksum "yarn.lock" }}
+          paths: 'node_modules'
+      - run: yarn ci:before
+      - run: ng test --maxWorkers=2
+      # - run: ng build --aot --no-progress
+      - run: yarn build:ssr
+      # - run: yarn e2e:ci
+      - run: yarn ci:after
+      - run: bash <(curl -s https://codecov.io/bash)
+      - store_artifacts:
+          path: coverage
+          prefix: coverage
+      - store_artifacts:
+          path: dist
+          prefix: dist
+      - store_test_results:
+          path: test-report.xml

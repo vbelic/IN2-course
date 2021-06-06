@@ -1,0 +1,71 @@
+{
+  "npmScope": "fulls1z3",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "projects": {
+    "universal": {
+      "tags": []
+    },
+    "shared-store": {
+      "tags": []
+    },
+    "shared-store-account": {
+      "tags": []
+    },
+    "shared-store-air-universal": {
+      "tags": []
+    },
+    "shared-store-i18n": {
+      "tags": []
+    },
+    "shared-ui-base": {
+      "tags": []
+    },
+    "shared-ui-i18n": {
+      "tags": []
+    },
+    "shared-ui-material": {
+      "tags": []
+    },
+    "shared-ui-store": {
+      "tags": []
+    },
+    "shared-util-analytics": {
+      "tags": []
+    },
+    "shared-util-auth": {
+      "tags": []
+    },
+    "shared-util-core": {
+      "tags": []
+    },
+    "shared-util-http-interceptor": {
+      "tags": []
+    },
+    "shared-util-i18n": {
+      "tags": []
+    },
+    "shared-util-store": {
+      "tags": []
+    },
+    "shared-util-testing": {
+      "tags": []
+    }
+  }
+}

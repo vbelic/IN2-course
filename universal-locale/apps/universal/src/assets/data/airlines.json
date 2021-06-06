@@ -1,0 +1,32 @@
+[
+  {
+    "id": "5bbf81e5cfdb223b57e82ef8",
+    "iataCode": "SL",
+    "name": "Supportal",
+    "price": 1200.44
+  },
+  {
+    "id": "5bbf81e5775a31399456f054",
+    "iataCode": "ES",
+    "name": "Ewaves",
+    "price": 4444.04
+  },
+  {
+    "id": "5bbf81e5dc5fcaf1a4073041",
+    "iataCode": "ST",
+    "name": "Shopabout",
+    "price": 567.32
+  },
+  {
+    "id": "5bbf81e5936602b8dc8125b9",
+    "iataCode": "PS",
+    "name": "Plasmosis",
+    "price": 3446.89
+  },
+  {
+    "id": "5bbf81e5e194ebea0372e4db",
+    "iataCode": "FM",
+    "name": "Flum",
+    "price": 21.89
+  }
+]
