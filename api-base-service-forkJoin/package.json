@@ -18,7 +18,10 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng serve",
+    "start-hmr": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng serve --configuration hmr",
+    "start-local": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng serve --configuration local",
+    "start-local-hmr": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng serve --configuration local-hmr --hmr",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

@@ -88,6 +88,30 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "local": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.local.ts"
+                }
+              ]
+            },
+            "local-hmr": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.local.hmr.ts"
+                }
+              ]
+            },
+            "hmr": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.hmr.ts"
+                }
+              ]
             }
           }
         },
@@ -99,6 +123,16 @@
           "configurations": {
             "production": {
               "browserTarget": "demo:build:production"
+            },
+            "local": {
+              "browserTarget": "demo:build:local"
+            },
+            "local-hmr": {
+              "browserTarget": "demo:build:local-hmr"
+            },
+            "hmr": {
+              "hmr": true,
+              "browserTarget": "SolarErp-client:build:hmr"
             }
           }
         },
