@@ -1,0 +1,282 @@
+[
+  {
+    "categories": {
+      "category": true,
+      "example": true
+    },
+    "currentRating": 4,
+    "date": "2018-04-25",
+    "description": "Description",
+    "id": 342126594235,
+    "imageRefs": [
+      "product-images/1524665830705_[object File]"
+    ],
+    "imageURLs": [
+      "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F1524665830705_%5Bobject%20File%5D?alt=media&token=c58f6861-ba91-45e8-b403-ff2e607d3bbc"
+    ],
+    "name": "Super new Socks",
+    "price": 6,
+    "priceNormal": 9,
+    "ratings": {
+      "bsHjPduGdGQcdwMVwohckCPmGEV2": 4
+    },
+    "reduction": 33,
+    "sale": true
+  },
+  {
+    "categories": {
+      "Jewelry": true
+    },
+    "currentRating": 2.6666666666666665,
+    "date": "2018-04-02",
+    "description": "Despite the name, these earrings won't give you magical powers  – or will they? Find out for yourself!",
+    "id": 1174268122548,
+    "imageRefs": [
+      "product-images/1522678065417_[object File]"
+    ],
+    "imageURLs": [
+      "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F1522678065417_%5Bobject%20File%5D?alt=media&token=eedccb30-2020-4d0d-94f0-29fe82c83d17"
+    ],
+    "name": "Magical Earrings",
+    "price": 150,
+    "priceNormal": 170,
+    "ratings": {
+      "4pBet4nCwcX9AooCpoKt4rEq9Ir1": 5,
+      "EF8ngX1RvuZLb0Gc4GvoVAMzap72": 1,
+      "ob71SSturTShU1owxGsz1PnxX8a2": 2
+    },
+    "reduction": 12,
+    "sale": true
+  },
+  {
+    "categories": {
+      "Backpacks": true
+    },
+    "currentRating": 4,
+    "date": "2018-04-01",
+    "description": "No backing, just packing",
+    "id": 1460918804231,
+    "imageRefs": [
+      "product-images/1522681916692_[object File]"
+    ],
+    "imageURLs": [
+      "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F1522681916692_%5Bobject%20File%5D?alt=media&token=9213065a-0ace-4ad8-bb6d-cafe6da093ab"
+    ],
+    "name": "Pack It On Your Back",
+    "price": 150,
+    "priceNormal": 200,
+    "ratings": {
+      "EF8ngX1RvuZLb0Gc4GvoVAMzap72": 4,
+      "c4cNnVPQtFTmzToyh0eRQ97lL8V2": 4
+    },
+    "reduction": 25,
+    "sale": true
+  },
+  {
+    "categories": {
+      "Glasses": true
+    },
+    "currentRating": 3,
+    "date": "2018-03-20",
+    "description": "You always wanted to be a pilot, did you not? Now you can!",
+    "id": 174074709536,
+    "imageRefs": [
+      "product-images/1522670556882_[object File]"
+    ],
+    "imageURLs": [
+      "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F1522670556882_%5Bobject%20File%5D?alt=media&token=3caf468e-92a2-408d-80a5-df89997ac247"
+    ],
+    "name": "Fancy Shades",
+    "price": 420,
+    "priceNormal": 420,
+    "ratings": {
+      "4pBet4nCwcX9AooCpoKt4rEq9Ir1": 5,
+      "EF8ngX1RvuZLb0Gc4GvoVAMzap72": 1
+    },
+    "reduction": 0,
+    "sale": false
+  },
+  {
+    "categories": {
+      "Jewelry": true
+    },
+    "currentRating": 5,
+    "date": "2018-03-19",
+    "description": "Not only for Beatles-Fans.",
+    "id": 262082575518,
+    "imageRefs": [
+      "product-images/1522408063589_[object File]"
+    ],
+    "imageURLs": [
+      "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F1522408063589_%5Bobject%20File%5D?alt=media&token=2b0a1e7a-f66f-49d3-bccb-a60c7bfe0696"
+    ],
+    "name": "Yellow Watch",
+    "price": 330,
+    "priceNormal": 400,
+    "ratings": {
+      "EF8ngX1RvuZLb0Gc4GvoVAMzap72": 5
+    },
+    "reduction": 18,
+    "sale": true
+  },
+  {
+    "categories": {
+      "Bags": true
+    },
+    "currentRating": 0,
+    "date": "2018-03-18",
+    "description": "This is a famous blue bag.",
+    "id": 287006516588,
+    "imageRefs": [
+      "product-images/1522670499756_[object File]"
+    ],
+    "imageURLs": [
+      "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F1522670499756_%5Bobject%20File%5D?alt=media&token=c86e99ef-c8f4-4343-a982-5e675b92d2fb"
+    ],
+    "name": "Famous Blue Bag",
+    "price": 750,
+    "priceNormal": 750,
+    "reduction": 0,
+    "sale": false
+  },
+  {
+    "categories": {
+      "Clothes": true
+    },
+    "currentRating": 4,
+    "date": "2018-03-17",
+    "description": "Retro is everywhere! Why go to the thrift-shop, shop here and be hip as f...",
+    "id": 534697532817,
+    "imageRefs": [
+      "product-images/1522670622377_[object File]"
+    ],
+    "imageURLs": [
+      "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F1522670622377_%5Bobject%20File%5D?alt=media&token=bfad7069-b6d3-4546-9994-8f5a83e814df"
+    ],
+    "name": "Retro Trainer",
+    "price": 175,
+    "priceNormal": 200,
+    "ratings": {
+      "C4qgFqlW1dPl1tnOmlTB3rlESti1": 4
+    },
+    "reduction": 13,
+    "sale": true
+  },
+  {
+    "categories": {
+      "Shoes": true
+    },
+    "currentRating": 1,
+    "date": "2018-03-16",
+    "description": "Be fast.",
+    "id": 55673120334,
+    "imageRefs": [
+      "product-images/1522681583918_[object File]"
+    ],
+    "imageURLs": [
+      "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F1522681583918_%5Bobject%20File%5D?alt=media&token=afd73126-72d0-4158-9d2e-83272b142d6d"
+    ],
+    "name": "Seven Mile Sneakers",
+    "price": 100,
+    "priceNormal": 200,
+    "ratings": {
+      "sETmdbrH0oWainU5NZB1uCteXB62": 1
+    },
+    "reduction": 50,
+    "sale": true
+  },
+  {
+    "categories": {
+      "Clothes": true
+    },
+    "currentRating": 1,
+    "date": "2018-03-15",
+    "description": "Very very useful pants. You could use these, right?",
+    "id": 704066485275,
+    "imageRefs": [
+      "product-images/1522670692030_[object File]"
+    ],
+    "imageURLs": [
+      "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F1522670692030_%5Bobject%20File%5D?alt=media&token=ea6b4905-7677-48b6-a871-40c593ffc6c7"
+    ],
+    "name": "Useful Pants",
+    "price": 75,
+    "priceNormal": 150,
+    "ratings": {
+      "EF8ngX1RvuZLb0Gc4GvoVAMzap72": 1
+    },
+    "reduction": 50,
+    "sale": true
+  },
+  {
+    "categories": {
+      "Clothes": true
+    },
+    "currentRating": 3,
+    "date": "2018-02-22",
+    "description": "Don't have a flower-garden? No problem, try the blouse!",
+    "id": 726052469270,
+    "imageRefs": [
+      "product-images/1522696166685_[object File]"
+    ],
+    "imageURLs": [
+      "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F1522696166685_%5Bobject%20File%5D?alt=media&token=324895a6-a177-418e-812e-9c206f909eb2"
+    ],
+    "name": "Flowery Blouse",
+    "price": 75,
+    "priceNormal": 75,
+    "ratings": {
+      "C4qgFqlW1dPl1tnOmlTB3rlESti1": 3
+    },
+    "reduction": 0,
+    "sale": false
+  },
+  {
+    "categories": {
+      "Shoes": true
+    },
+    "currentRating": 1,
+    "date": "2018-02-21",
+    "description": "Those are some nice shoes you'll get there....",
+    "id": 816056417742,
+    "imageRefs": [
+      "product-images/1522670457485_[object File]"
+    ],
+    "imageURLs": [
+      "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F1522670457485_%5Bobject%20File%5D?alt=media&token=7699c36c-e202-4dd2-9b1a-d7f1fcd223f4"
+    ],
+    "name": "«Nice» Shoes",
+    "price": 120,
+    "priceNormal": 120,
+    "ratings": {
+      "C4qgFqlW1dPl1tnOmlTB3rlESti1": 1,
+      "EF8ngX1RvuZLb0Gc4GvoVAMzap72": 1
+    },
+    "reduction": 0,
+    "sale": false
+  },
+  {
+    "categories": {
+      "Clothing": true
+    },
+    "currentRating": 3,
+    "date": "2018-02-20",
+    "description": "No one looks good in a fedora, but who cares anyway.",
+    "id": 830862339928,
+    "imageRefs": [
+      "product-images/1522670798623_[object File]"
+    ],
+    "imageURLs": [
+      "https://firebasestorage.googleapis.com/v0/b/cas-fee-shop.appspot.com/o/product-images%2F1522670798623_%5Bobject%20File%5D?alt=media&token=ff1a891a-4151-4afe-89fb-f18a9fc5bfe8"
+    ],
+    "name": "Not-So-Classic Fedora",
+    "price": 130,
+    "priceNormal": 130,
+    "ratings": {
+      "4pBet4nCwcX9AooCpoKt4rEq9Ir1": 1,
+      "EF8ngX1RvuZLb0Gc4GvoVAMzap72": 5
+    },
+    "reduction": 0,
+    "sale": false
+  }
+]

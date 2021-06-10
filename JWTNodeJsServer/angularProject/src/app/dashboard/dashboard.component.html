@@ -1,0 +1,14 @@
+<p>
+  You are logged as
+</p>
+
+<p *ngIf="userProfile">
+ First Name  {{userProfile.firstName}} <br />
+ last Name {{userProfile.lastName}} <br />
+ Email Address {{userProfile.emailAddress}} <br />
+ Phone Number {{userProfile.phoneNumber}} <br />
+
+</p>
+<li *ngFor="let p of products">
+  <span class="badge">{{p.id}}</span> {{p.name}}
+</li>

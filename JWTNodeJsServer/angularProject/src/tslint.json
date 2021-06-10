@@ -1,0 +1,15 @@
+{
+    "extends": "../tslint.json",
+    "rules": {
+        "directive-selector": [
+            true,
+            "attribute"
+
+        ],
+        "component-selector": [
+            true,
+            "element"
+
+        ]
+    }
+}
